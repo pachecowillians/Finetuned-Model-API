@@ -1,5 +1,5 @@
 from flask import Flask
-from app.api.classifier_api import classifier_api
+from api.classifier_api import classifier_api
 
 app = Flask(__name__)
 app.register_blueprint(classifier_api, url_prefix='/api')

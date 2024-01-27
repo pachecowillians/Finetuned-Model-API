@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from app.model.model import ClassifierModel
-from app.utils.tokenizer import Tokenizer
+from model.model import ClassifierModel
+from utils.tokenizer import Tokenizer
 
 classifier_api = Blueprint('classifier_api', __name__)
 
