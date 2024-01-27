@@ -32,6 +32,34 @@ Flask API for sentiment classification using Hugging Face's fine-tuned model.
    python training/finetune_model.py
    ```
 
+## Running Tests with pytest
+
+### Using Docker
+
+To run tests with Docker, make sure the Docker container is running. Then, execute the following command:
+
+```bash
+docker exec -it finetuned-model-api pytest app/tests
+```
+
+### Local Testing
+
+To run tests locally without Docker, follow these steps:
+
+1. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Execute the following command to run the tests:
+
+   ```bash
+   pytest app/tests
+   ```
+
+This will run the tests using `pytest` locally.
+
 ## API Endpoints
 
 ### Classify Text
