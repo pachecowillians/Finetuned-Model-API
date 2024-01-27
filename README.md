@@ -52,7 +52,9 @@ To run tests locally without Docker, follow these steps:
    pip install -r requirements.txt
    ```
 
-2. Execute the following command to run the tests:
+2. Make sure the API is not running locally on port 5000.
+
+3. Execute the following command to run the tests:
 
    ```bash
    pytest app/tests
