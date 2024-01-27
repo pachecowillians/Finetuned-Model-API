@@ -1,0 +1,4 @@
+flask==3.0.1
+transformers==4.37.1
+torch==2.1.2
+datasets==2.16.1
